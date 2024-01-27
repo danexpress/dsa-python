@@ -33,7 +33,7 @@
 # Node 0 with value 2 is the only node remaining after removing node 1.
 
 
-from typing import List, Optional
+from typing import Optional
 
 
 class ListNode:
