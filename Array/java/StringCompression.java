@@ -2,32 +2,26 @@ package Array.java;
 
 public class StringCompression {
     public int compress(char[] chars) {
-        int ans = 0; // keep track of current position in compressed array
+        int i = 0;
+        int cnt = 1;
 
-        // iterate through input array using i pointer
-        for (int i = 0; i < chars.length;) {
-            final char letter = chars[i]; // current character being compressed
-            int count = 0; // count of consecutive occurrences of letter
+        for (int j = 1; j <= chars.length; j++) {
+            if (j < chars.length && chars[j] == chars[j - 1]) {
+                cnt++;
 
-            // count consecutive occurrences of letter in input array
-            while (i < chars.length && chars[i] == letter) {
-                ++count;
-                ++i;
-            }
+            } else {
+                chars[i++] = chars[j - 1];
 
-            // write letter to compressed array
-            chars[ans++] = letter;
+                if (cnt > 1) {
+                    for (char c : String.valueOf(cnt).toCharArray()) {
+                        chars[i] = c;
+                        i++;
+                    }
 
-            // if count is greater than 1, write count as string to compressed array
-            if (count > 1) {
-                // convert count to string and iterate over each character in string
-                for (final char c : String.valueOf(count).toCharArray()) {
-                    chars[ans++] = c;
                 }
+                cnt = 1;
             }
         }
-        // https://certificates.mooc.fi/validate/qrjb1clufqd
-        // return length of compressed array
-        return ans;
+        return i;
     }
 }
