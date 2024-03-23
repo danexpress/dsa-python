@@ -26,7 +26,7 @@ public class StringCompression {
                 }
             }
         }
-
+        // https://certificates.mooc.fi/validate/qrjb1clufqd
         // return length of compressed array
         return ans;
     }
