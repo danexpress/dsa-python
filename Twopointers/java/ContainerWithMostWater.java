@@ -1,4 +1,4 @@
-package Twopointers;
+package Twopointers.java;
 
 public class ContainerWithMostWater {
     public int maxArea(int[] height) {
