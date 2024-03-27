@@ -11,6 +11,8 @@
 # Output: [5,10]
 # Explanation: The 10 and -5 collide resulting in 10. The 5 and 10 never collide.
 
+from typing import List
+
 
 class Solution:
     def asteroidCollision(self, asteroids: List[int]) -> List[int]:
