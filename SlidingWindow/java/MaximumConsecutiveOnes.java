@@ -1,4 +1,4 @@
-package SlidingWindow;
+package SlidingWindow.java;
 
 public class MaximumConsecutiveOnes {
     public int longestOnes(int[] nums, int k) {
