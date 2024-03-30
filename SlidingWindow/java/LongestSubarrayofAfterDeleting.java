@@ -1,4 +1,4 @@
-package SlidingWindow;
+package SlidingWindow.java;
 
 public class LongestSubarrayofAfterDeleting {
     public int longestSubarray(int[] nums) {
