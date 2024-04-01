@@ -1,7 +1,7 @@
 package LinkedList;
 
 public class MaximumTwinSumOfaLinkedList {
-    public ListNode findmid(ListNode head) {
+    public ListNode findMid(ListNode head) {
         ListNode fast = head;
         ListNode slow = head;
         while (fast != null && fast.next != null) {
@@ -25,7 +25,7 @@ public class MaximumTwinSumOfaLinkedList {
     }
 
     public int pairSum(ListNode head) {
-        ListNode mid = findmid(head);
+        ListNode mid = findMid(head);
         ListNode midhead = reverse(mid);
 
         ListNode temp1 = head;
