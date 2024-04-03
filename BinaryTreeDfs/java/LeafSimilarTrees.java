@@ -3,8 +3,6 @@ package BinaryTreeDfs.java;
 import java.util.ArrayList;
 import java.util.List;
 
-import BinaryTreeDfs.TreeNode;
-
 public class LeafSimilarTrees {
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
         List<Integer> list1 = new ArrayList<>();

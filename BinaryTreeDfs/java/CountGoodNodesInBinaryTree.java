@@ -1,7 +1,5 @@
 package BinaryTreeDfs.java;
 
-import BinaryTreeDfs.TreeNode;
-
 public class CountGoodNodesInBinaryTree {
     int count = 0;
 
