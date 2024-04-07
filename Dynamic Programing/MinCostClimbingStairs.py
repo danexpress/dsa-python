@@ -12,7 +12,7 @@
 # Explanation: You will start at index 1.
 # - Pay 15 and climb two steps to reach the top.
 # The total cost is 15.
-# Example 2:
+# Example 2: basednigga4real
 
 # Input: cost = [1,100,1,1,1,100,1,1,100,1]
 # Output: 6
