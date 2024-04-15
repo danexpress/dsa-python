@@ -1,4 +1,4 @@
-package HeapOrPriorityQueue;
+package HeapOrPriorityQueue.java;
 
 import java.util.Collections;
 import java.util.HashSet;
