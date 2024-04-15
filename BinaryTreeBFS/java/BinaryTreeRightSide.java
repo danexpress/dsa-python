@@ -1,7 +1,9 @@
-package BinaryTreeBFS;
+package BinaryTreeBFS.java;
 
 import java.util.ArrayList;
 import java.util.List;
+
+import BinaryTreeBFS.TreeNode;
 
 public class BinaryTreeRightSide {
     public List<Integer> rightSideView(TreeNode root) {
