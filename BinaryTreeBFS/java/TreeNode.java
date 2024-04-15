@@ -1,4 +1,4 @@
-package BinaryTreeBFS;
+package BinaryTreeBFS.java;
 
 public class TreeNode {
     int val;
