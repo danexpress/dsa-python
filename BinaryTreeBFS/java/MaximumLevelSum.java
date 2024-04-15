@@ -1,4 +1,4 @@
-package BinaryTreeBFS;
+package BinaryTreeBFS.java;
 
 import java.util.LinkedList;
 import java.util.Queue;
