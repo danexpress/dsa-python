@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch.java;
 
 public class kokoEatingBanana {
     public int minEatingSpeed(int[] piles, int h) {
