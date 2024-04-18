@@ -1,6 +1,6 @@
 package BinarySearch.java;
 
-public class guessNumberHigerOrLower {
+public class GuessNumberHigerOrLower {
     public int guessNumber(int n) {
         int i = 1;
         int j = n;
@@ -19,4 +19,11 @@ public class guessNumberHigerOrLower {
 
         return -1;
     }
+
+    private int guess(int mid) {
+        // TODO Auto-generated method stub
+        throw new UnsupportedOperationException("Unimplemented method 'guess'");
+    }
+
+    
 }
