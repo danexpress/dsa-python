@@ -1,4 +1,4 @@
-package BinarySearch;
+package BinarySearch.java;
 
 public class guessNumberHigerOrLower {
     public int guessNumber(int n) {
