@@ -1,4 +1,4 @@
-package DynamicPrograming;
+package DynamicPrograming.java;
 
 public class DominoAndTrominoTiling {
     public int numTilings(int n) {
