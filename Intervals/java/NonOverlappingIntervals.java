@@ -1,4 +1,4 @@
-package Intervals;
+package Intervals.java;
 
 import java.util.Arrays;
 
