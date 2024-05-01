@@ -1,4 +1,4 @@
-package dp2;
+package dp2.java;
 
 public class BestTimeToBuyAndSell {
     public int maxProfit(int[] prices, int fee) {
