@@ -1,4 +1,4 @@
-package dp2;
+package dp2.java;
 
 public class EditDistance {
     public int minDistance(String word1, String word2) {
