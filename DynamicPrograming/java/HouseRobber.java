@@ -1,4 +1,4 @@
-package DynamicPrograming;
+package DynamicPrograming.java;
 
 public class HouseRobber {
     public int rob(int[] nums) {
