@@ -1,4 +1,4 @@
-package dp2;
+package dp2.java;
 
 public class UniquePaths {
     public int uniquePaths(int m, int n) {
