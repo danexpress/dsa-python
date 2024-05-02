@@ -1,4 +1,4 @@
-package dp2;
+package dp2.java;
 
 public class LongestCommonSubsequence {
     public int longestCommonSubsequence(String text1, String text2) {
