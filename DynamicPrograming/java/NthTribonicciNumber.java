@@ -1,4 +1,4 @@
-package DynamicPrograming;
+package DynamicPrograming.java;
 
 public class NthTribonicciNumber {
     public int tribonacci(int n) {
