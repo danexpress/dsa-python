@@ -1,4 +1,4 @@
-package BitManipulaton;
+package BitManipulaton.java;
 
 public class CountingBits {
     public int[] countBits(int n) {
