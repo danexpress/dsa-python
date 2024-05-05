@@ -1,4 +1,4 @@
-package BitManipulaton;
+package BitManipulaton.java;
 
 public class MinimumFlipsToMake {
     public int minFlips(int a, int b, int c) {
