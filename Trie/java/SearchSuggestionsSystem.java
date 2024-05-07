@@ -1,4 +1,4 @@
-package Trie;
+package Trie.java;
 
 import java.util.ArrayList;
 import java.util.Arrays;
