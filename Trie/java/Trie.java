@@ -1,4 +1,4 @@
-package Trie;
+package Trie.java;
 
 public class Trie {
     Node root;
