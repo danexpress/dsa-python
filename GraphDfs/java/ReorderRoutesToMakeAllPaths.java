@@ -1,4 +1,4 @@
-package GraphDfs;
+package GraphDfs.java;
 
 import java.util.ArrayList;
 import java.util.List;
