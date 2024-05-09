@@ -1,4 +1,4 @@
-package GraphDfs;
+package GraphDfs.java;
 
 public class NumberOfProvinces {
     public int findCircleNum(int[][] isConnected) {
