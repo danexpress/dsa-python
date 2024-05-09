@@ -1,4 +1,4 @@
-package PrefixSum;
+package PrefixSum.java;
 
 public class FindTheHighestAltitude {
     public int largestAltitude(int[] gain) {
