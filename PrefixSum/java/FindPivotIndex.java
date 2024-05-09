@@ -1,4 +1,4 @@
-package PrefixSum;
+package PrefixSum.java;
 
 import java.util.Arrays;
 
