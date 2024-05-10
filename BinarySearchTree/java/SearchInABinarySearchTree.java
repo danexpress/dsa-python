@@ -1,4 +1,4 @@
-package BinarySearchTree;
+package BinarySearchTree.java;
 
 public class SearchInABinarySearchTree {
     public TreeNode searchBST(TreeNode root, int val) {

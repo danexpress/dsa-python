@@ -1,7 +1,5 @@
 package BinarySearchTree.java;
 
-import BinarySearchTree.TreeNode;
-
 public class DeleteNodeInaBst {
     public TreeNode deleteNode(TreeNode root, int key) {
         if (root == null)
