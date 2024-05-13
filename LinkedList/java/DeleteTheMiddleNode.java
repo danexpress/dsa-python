@@ -1,7 +1,5 @@
 package LinkedList.java;
 
-import LinkedList.ListNode;
-
 public class DeleteTheMiddleNode {
     public ListNode deleteMiddle(ListNode head) {
         if (head == null)

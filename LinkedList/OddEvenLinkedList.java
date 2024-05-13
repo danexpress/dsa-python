@@ -1,5 +1,7 @@
 package LinkedList;
 
+import LinkedList.java.ListNode;
+
 public class OddEvenLinkedList {
     public ListNode oddEvenList(ListNode head) {
         if (head == null)
