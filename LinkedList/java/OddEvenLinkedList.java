@@ -1,6 +1,4 @@
-package LinkedList;
-
-import LinkedList.java.ListNode;
+package LinkedList.java;
 
 public class OddEvenLinkedList {
     public ListNode oddEvenList(ListNode head) {
