@@ -1,4 +1,6 @@
-package Hash Map or Set;
+package HashMapOrSet;
+
+import java.util.Arrays;
 
 public class DetermineIfTwoStringAreClose {
     public boolean closeStrings(String word1, String word2) {
