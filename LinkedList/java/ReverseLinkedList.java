@@ -1,6 +1,4 @@
-package LinkedList;
-
-import LinkedList.java.ListNode;
+package LinkedList.java;
 
 public class ReverseLinkedList {
     public ListNode reverseList(ListNode head) {
