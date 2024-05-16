@@ -1,4 +1,4 @@
-package HashMapOrSet;
+package HashMapOrSet.java;
 
 import java.util.ArrayList;
 import java.util.HashSet;
