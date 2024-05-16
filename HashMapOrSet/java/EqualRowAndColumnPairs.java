@@ -1,4 +1,4 @@
-package HashMapOrSet;
+package HashMapOrSet.java;
 
 public class EqualRowAndColumnPairs {
     public int equalPairs(int[][] grid) {
