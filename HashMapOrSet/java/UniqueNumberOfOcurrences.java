@@ -1,4 +1,4 @@
-package HashMapOrSet;
+package HashMapOrSet.java;
 
 public class UniqueNumberOfOcurrences {
     public boolean uniqueOccurrences(int[] arr) {
@@ -6,7 +6,7 @@ public class UniqueNumberOfOcurrences {
         for (int num : arr) {
             counts[num + 1000]++;
         }
-        
+
         boolean[] occurrences = new boolean[1001];
         for (int count : counts) {
             if (count != 0) {
@@ -16,7 +16,7 @@ public class UniqueNumberOfOcurrences {
                 occurrences[count] = true;
             }
         }
-        
+
         return true;
     }
 }
