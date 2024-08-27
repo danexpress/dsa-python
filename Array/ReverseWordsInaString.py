@@ -42,3 +42,8 @@ class Solution:
                 i -= 1
             i += 1
         return " ".join(string_buider)
+
+
+# class Solution:
+#     def reverseWords(self, s: str) -> str:
+#         return ' '.join(s.split()[::-1])
